@@ -1,0 +1,91 @@
+.questions-block {
+    position: relative;
+    width: 58%;
+    height: 38rem;
+    padding: 3rem;
+    top: 10rem;
+    border-radius: 0.6rem;
+    margin: 0 auto;
+    text-align: center;
+    left: -14em;
+    background: $secondry-color; // display: none;    
+    &__questions-style {
+        color: $white-color;
+        position: relative;
+        top: 19%;
+    }
+}
+
+#question1 {
+    margin-bottom: 9rem;
+    margin-top: 9rem;
+}
+
+#radio1 {
+    position: relative;
+    // right: 40rem;
+    right: 34rem;
+}
+
+#radio2 {
+    position: relative;
+    right: 21rem;
+}
+
+#radio3 {
+    position: relative;
+    left: -1rem;
+}
+
+#radio4 {
+    position: absolute;
+    right: 15rem;
+}
+
+#lable1 {
+    position: relative;
+    // left: -38rem;
+    left: -32rem;
+}
+
+#lable2 {
+    position: relative;
+    left: -19rem;
+}
+
+#lable3 {
+    position: absolute; //  right: 33rem;
+}
+
+#lable4 {
+    position: absolute;
+    right: 9rem;
+}
+
+.submitdecoration {
+    position: absolute;
+    text-decoration: none;
+    margin: 14rem;
+    top: 19rem;
+}
+
+#skip {
+    position: absolute;
+    left: 10rem;
+}
+
+#congrat {
+    margin: 3rem;
+    top: 10rem;
+    position: relative;
+}
+
+.score {
+    margin: 3rem;
+    top: 10rem;
+    position: relative;
+}
+
+.finalresultcenter {
+    left: 0;
+}

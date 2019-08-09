@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Examination System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+    crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7cCookie">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    
+    <div class="form-block ">
+
+       <div class="form-block--form-card">
+
+            <input type="text" name="name" placeholder="Username" class="form-block__form-field" id="name">
+             <div id="error-name" class="hidden-style"></div>
+             <input type="text" name="email" placeholder="Email Address" class="form-block__form-field " id="email">  
+             <div id="error-email" class="hidden-style"></div>            
+             <input type="password" name="password" placeholder="Password" class="form-block__form-field " id="password">
+             <div id="error-pass" class="hidden-style"></div>  
+             <input type="password" name="confirm" placeholder="Confirm password" class="form-block__form-field " id="confirm">
+             <div id="error-confirm" class="hidden-style"></div>  
+             <div class="form-block__radio-block ">
+            <label class="form-block--radio-lable-style">Gender:</label>
+            <div>
+            <input type="radio" name="gender" class="form-block--radio-element">
+            <label class="form-block--radio-label">male</label></div>
+            <div>
+            <input type="radio" name="gender" class="form-block--radio-element">            
+            <label class="form-block--radio-label">female</label></div>
+            
+        </div>
+            <input type="button" value="submit" class="btn--font btn--rounded btn--primary form-block--submit" id="submit">
+        </div>
+     
+    </div>
+
+
+    <div class="questions-block active">
+    
+         <div id="questionss"></div>
+         
+     </div>
+    </div>
+
+    <div class="skip-block active">
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

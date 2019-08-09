@@ -1,0 +1,22 @@
+.btn{
+    &--font
+    {
+        font-family: $font;
+       font-size: $font-size;
+       
+    }
+    &--rounded{  
+        padding: .3rem 2.4rem; 
+        border:$primary-border;
+        border-radius:$rounded-radius;
+    } 
+    &--primary{
+        color: $white-color;
+        background-color:$primary-color;
+        border:$primary-border; 
+
+    }
+  
+
+
+}

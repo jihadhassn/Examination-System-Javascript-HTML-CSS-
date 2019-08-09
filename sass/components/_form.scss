@@ -1,0 +1,60 @@
+.form-block {
+    position: relative;
+    padding: 3rem ;
+    top: 10rem;
+    &--form-card {
+        background-color: $secondry-color;
+        border-radius: 0.6rem;
+        width: 58%;
+        margin: 0 auto;
+        padding: 4.4rem;
+        text-align: center;
+
+    }
+    &__form-field {
+        position: relative;
+        display: block;
+        padding: 1rem 0 1rem 1rem;
+        background-color: $white-color;
+        width: 47%;
+        margin: .5% .5% 1.6rem;
+        left: 26%;
+        border: 0.3rem solid #ddd;
+        border-radius: 2.5rem;
+        &:hover {
+            border: 0.3rem solid $primary-color;
+        }
+    }
+    &--submit {
+        padding: .9rem 2.6rem;
+        &:hover {
+            background-color: transparent;
+            @include block-color(transparent, $primary-color);
+        }
+    }
+    &__radio-block {
+        text-align: left;
+        position: relative;
+        left: 31%;
+    }
+    &--radio-lable-style {
+        font-family: $font;
+        font-size: $font-size;
+        color: $white-color;
+    }
+    &--radio-label{
+        color: $white-color;
+    }
+    &--radio-element{
+
+        cursor: pointer;
+    }
+}  
+.hidden-style{   
+ color: red; 
+
+}
+
+.active{
+    display:none; 
+}

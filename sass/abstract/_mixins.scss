@@ -1,0 +1,4 @@
+@mixin block-color($back-color,$fore-color) {
+    background-color:$back-color;
+    color: $fore-color 
+}

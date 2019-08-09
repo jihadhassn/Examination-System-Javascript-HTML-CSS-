@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-family: Lato,sans-serif;
+  color: white;
+  background-color: #f9f9f9; }
+
+a {
+  text-decoration: none; }
+
+.btn--font {
+  font-family: "Cookie", cursive;
+  font-size: 2.6rem; }
+
+.btn--rounded {
+  padding: .3rem 2.4rem;
+  border: 0.2rem solid #e62b4c;
+  border-radius: 5rem; }
+
+.btn--primary {
+  color: #ffffff;
+  background-color: #e62b4c;
+  border: 0.2rem solid #e62b4c; }
+
+.form-block {
+  position: relative;
+  padding: 3rem;
+  top: 10rem; }
+  .form-block--form-card {
+    background-color: #212739;
+    border-radius: 0.6rem;
+    width: 58%;
+    margin: 0 auto;
+    padding: 4.4rem;
+    text-align: center; }
+  .form-block__form-field {
+    position: relative;
+    display: block;
+    padding: 1rem 0 1rem 1rem;
+    background-color: #ffffff;
+    width: 47%;
+    margin: .5% .5% 1.6rem;
+    left: 26%;
+    border: 0.3rem solid #ddd;
+    border-radius: 2.5rem; }
+    .form-block__form-field:hover {
+      border: 0.3rem solid #e62b4c; }
+  .form-block--submit {
+    padding: .9rem 2.6rem; }
+    .form-block--submit:hover {
+      background-color: transparent;
+      background-color: transparent;
+      color: #e62b4c; }
+  .form-block__radio-block {
+    text-align: left;
+    position: relative;
+    left: 31%; }
+  .form-block--radio-lable-style {
+    font-family: "Cookie", cursive;
+    font-size: 2.6rem;
+    color: #ffffff; }
+  .form-block--radio-label {
+    color: #ffffff; }
+  .form-block--radio-element {
+    cursor: pointer; }
+
+.hidden-style {
+  color: red; }
+
+.active {
+  display: none; }
+
+.questions-block {
+  position: relative;
+  width: 58%;
+  height: 38rem;
+  padding: 3rem;
+  top: 10rem;
+  border-radius: 0.6rem;
+  margin: 0 auto;
+  text-align: center;
+  left: -14em;
+  background: #212739; }
+  .questions-block__questions-style {
+    color: #ffffff;
+    position: relative;
+    top: 19%; }
+
+#question1 {
+  margin-bottom: 9rem;
+  margin-top: 9rem; }
+
+#radio1 {
+  position: relative;
+  right: 34rem; }
+
+#radio2 {
+  position: relative;
+  right: 21rem; }
+
+#radio3 {
+  position: relative;
+  left: -1rem; }
+
+#radio4 {
+  position: absolute;
+  right: 15rem; }
+
+#lable1 {
+  position: relative;
+  left: -32rem; }
+
+#lable2 {
+  position: relative;
+  left: -19rem; }
+
+#lable3 {
+  position: absolute; }
+
+#lable4 {
+  position: absolute;
+  right: 9rem; }
+
+.submitdecoration {
+  position: absolute;
+  text-decoration: none;
+  margin: 14rem;
+  top: 19rem; }
+
+#skip {
+  position: absolute;
+  left: 10rem; }
+
+#congrat {
+  margin: 3rem;
+  top: 10rem;
+  position: relative; }
+
+.score {
+  margin: 3rem;
+  top: 10rem;
+  position: relative; }
+
+.finalresultcenter {
+  left: 0; }
+
+.skip-block {
+  height: 33rem;
+  background-color: #212739;
+  width: 25%;
+  position: absolute;
+  top: 14rem;
+  left: 101rem;
+  border-radius: 1.2rem; }
+
+.skip-question {
+  display: block;
+  margin-bottom: 0.5rem;
+  position: relative;
+  top: 1rem;
+  font-family: cursive;
+  font-size: 1.6rem; }
